@@ -1,0 +1,25 @@
+{
+    "development": {
+      "username": "DevOpsAC",
+      "password": "AcTestDevOps",  
+      "database": "testdb",          
+      "host": "devops-test-solutions-db-1", 
+      "port": "3308",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "DevOpsAC",
+      "password": "AcTestDevOps",  
+      "database": "testdb",          
+      "host": "devops-test-solutions-db-1", 
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "DevOpsAC",
+      "password": "AcTestDevOps",  
+      "database": "testdb",          
+      "host": "devops-test-solutions-db-1", 
+      "dialect": "mysql"
+    }
+  }
+  

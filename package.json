@@ -1,0 +1,23 @@
+{
+    "name": "auth-microservice",
+    "version": "1.0.0",
+    "description": "Microservicio de autenticación con Node.js y MySQL",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.6.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+        "jest": "^26.6.0",
+        "sequelize-cli": "^6.6.2",
+        "supertest": "^6.0.0"
+    }
+}
